@@ -1,0 +1,25 @@
+1、该文件是联想手机A360T的2D仿真试玩程序。
+
+2、使用说明：请使用DreamWeaver或者Subline等软件打开。
+
+3、程序模块说明：每个模块对应相应的js文件和图片。
+main：主函数，能够看到手机正面样子，并且显示当前日期，滑动解锁进入guide层。
+guide：包括guide、guideleft、guideright三个js。
+       显示的是解锁后手机显示的画面，能够左右滑动，闪烁的图标表示能够点击的功能
+       主guide层已开发的功能模块是拨号、设置、联系人、浏览器，左guide层是联系人、闹钟、拨号、浏览器，右guide层是联系人、拨号、搜索、浏览器。
+       菜单键均能触发。
+alarm：包括alarm、alarm2、alarm3、alarm4。
+       alarm是进入闹钟界面，点击圆键能够选择时辰。还能选择闹铃。
+       alarm2是世界时钟界面，alarm3是计时界面，alarm4是秒表界面。
+call：包括callMain和call1两个js文件。
+      callMain主要实现拨号界面，拨号按钮可以输入号码，可实现拨打电话和查看联系人。
+      call1：正在通话的界面，可以添加联系人和实现通话结束。
+internet：显示进入浏览器的界面，有返回键和home键。
+menu：显示的进入菜单的界面，已实现的功能模块均用方框提示，模块能够点击。
+phoneBook：包括phoneBookMain、phoneBook1、phoneBook3。
+           phoneBookMain主要实现联系人主界面，已有三个联系人，点击可进行查看，能添加联系人。
+           phoneBook1实现联系人查看界面，点击号码可直接拨打电话。
+           phoneBook3实现添加联系人界面，可输入名字与号码，保存新建联系人。
+search：显示进入搜索的界面，有返回键和home键。
+setting：显示进入设置的界面，能滑动界面，开关键可触发。
+src：包含h5调用的库函数。
